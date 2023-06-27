@@ -1,27 +1,17 @@
-# ArabicRepresentationLib
+# ArabicRepresentation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.4.
+This library was generated with the help of the [number-to-arabic-words](https://www.npmjs.com/package/number-to-arabic-words?activeTab=readme) version 1.5.3.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This is a tool to convert a number to its text representation in Arabic
 
-## Code scaffolding
+# For Example
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- If we input `23980` the output should be `فقط ثلاثة وعشرون ألفا وتسعمائة جنيها مصريا لا غير`
+- If we input `100` the output should be `فقط مائة جنيه مصري لا غير`
+- If we input `310005` the output should be `فقط ثلاثمائة وعشرة آلاف وخمسة جنيهات مصرية لا غير`
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run `ng test arabic-representation` to execute the unit tests via [Karma](https://karma-runner.github.io).
